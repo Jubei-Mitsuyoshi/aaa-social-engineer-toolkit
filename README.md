@@ -1,4 +1,7 @@
-aaa-social-engineer-toolkit
-===========================
+aaa-setoolkit
+=============
 
-social-engineer-toolkit packaged for debian
+social engineering toolkit packaged for debian
+
+
+STATUS: nearly finished

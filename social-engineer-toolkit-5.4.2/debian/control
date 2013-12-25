@@ -1,0 +1,25 @@
+Source: social-engineer-toolkit
+Section: devel
+Priority: optional
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Build-Depends: debhelper (>= 9.0.0),
+               python-all-dev (>= 2.5),
+               python-support (>= 0.90),
+               dh-python
+Standards-Version: 3.9.4
+Homepage:  https://www.trustedsec.com/downloads/social-engineer-toolkit/
+
+Package: social-engineer-toolkit
+Architecture: any
+Depends: ${shlibs:Depends}, 
+              ${misc:Depends},
+               python-pexpect,
+               python-pefile,
+               python-crypto,
+               python-openssl
+Description: an open-source Python-driven tool aimed at penetration
+ testing around Social-Engineering. SET has been presented at large-scale
+ conferences including Blackhat, DerbyCon, Defcon, and ShmooCon.
+ With over two million downloads, SET is the standard for 
+ social-engineering penetration tests and supported heavily 
+ within the security community.
